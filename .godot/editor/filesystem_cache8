@@ -1,0 +1,68 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1729342815
+AllSky_Space_AnotherPlanet Equirect.png::CompressedTexture2D::5088431616141199239::1584625093::1729342817::1::::<><>::
+export_presets.cfg::TextFile::-1::1729342791::0::1::::<><>::
+fps.gd::GDScript::-1::1729336951::0::1::::<>Control<>::
+fps.tscn::PackedScene::5053777586635201809::1729342755::0::1::::<><>::res://fps.gd
+gitignore.txt::TextFile::-1::1729335236::0::1::::<><>::
+icon.png::CompressedTexture2D::6551242169133757786::1729335236::1729341030::1::::<><>::
+icon.svg::CompressedTexture2D::5742800088271108217::1729334616::1729341030::1::::<><>::
+LICENSE.txt::TextFile::-1::1729335236::0::1::::<><>::
+mobile_controls.gd::GDScript::-1::1729341485::0::1::::<>Control<>::
+mobile_controls.tscn::PackedScene::5238591577174447396::1729342755::0::1::::<><>::res://mobile_controls.gd
+player.gd::GDScript::-1::1729336614::0::1::::<>CharacterBody3D<>::
+player.tscn::PackedScene::3146635183201158691::1729342755::0::1::::<><>::res://player.gd
+splash.png::CompressedTexture2D::6918636848571614932::1729335236::1729335236::1::::<><>::
+testing.tscn::PackedScene::2282879532381254551::1729342815::0::1::::<><>::uid://bk3ivey2dlsk6::::res://player.tscn<>uid://cgvu3qve730mi::::res://mobile_controls.tscn<>uid://dmr0fcamx7t56::::res://addons/virtual_joystick/virtual_joystick_scene.tscn<>uid://ceac8jenyjrv2::::res://fps.tscn<>uid://ceq4ywo0m2p5x::::res://AllSky_Space_AnotherPlanet Equirect.png
+::res://addons/::1729341030
+::res://addons/instant-realistic-light/::1729335236
+light_scene.tscn::PackedScene::3706127621039930208::1729335236::0::1::::<><>::
+plugin.cfg::TextFile::-1::1729335236::0::1::::<><>::
+plugin.gd::GDScript::-1::1729335236::0::1::::<>EditorPlugin<>::
+::res://addons/virtual_joystick/::1729340674
+plugin.cfg::TextFile::-1::1729340521::0::1::::<><>::
+virtual_joystick.gd::GDScript::-1::1729340521::0::1::::VirtualJoystick<>Control<>::
+virtual_joystick_icon.png::CompressedTexture2D::260911808592511340::1729340521::1729340522::1::::<><>::
+virtual_joystick_instantiator.gd::GDScript::-1::1729340521::0::1::::<>Control<>::
+virtual_joystick_plugin.gd::GDScript::-1::1729340521::0::1::::<>EditorPlugin<>::
+virtual_joystick_scene.tscn::PackedScene::8038149555967335895::1729340674::0::1::::<><>::res://addons/virtual_joystick/virtual_joystick.gd<>uid://bm30au8mjfc2f::::res://addons/virtual_joystick/textures/joystick_base_outline.png<>uid://dt13r06u87fib::::res://addons/virtual_joystick/textures/joystick_tip_arrows.png
+::res://addons/virtual_joystick/previews/::1729340522
+CoverPreview.svg::CompressedTexture2D::7461907986916422887::1729340521::1729340522::1::::<><>::
+joystick_icon.png::CompressedTexture2D::8187945406606696058::1729340521::1729340522::1::::<><>::
+Logo.svg::CompressedTexture2D::1973737736067166075::1729340521::1729340522::1::::<><>::
+ShowcasePreview.png::CompressedTexture2D::8042632391963133354::1729340521::1729340522::1::::<><>::
+::res://addons/virtual_joystick/test/::1729340521
+player.gd::GDScript::-1::1729340521::0::1::::<>Sprite2D<>::
+test.tscn::PackedScene::3566301953465693758::1729340521::0::1::::<><>::uid://dmr0fcamx7t56::::res://addons/virtual_joystick/virtual_joystick_scene.tscn<>uid://kq1h264n0gxs::::res://icon.svg<>res://addons/virtual_joystick/test/player.gd
+::res://addons/virtual_joystick/textures/::1729340522
+joystick_base_outline.png::CompressedTexture2D::3288008411285325467::1729340521::1729340521::1::::<><>::
+joystick_tip.png::CompressedTexture2D::3132432681801126628::1729340521::1729340521::1::::<><>::
+joystick_tip_arrows.png::CompressedTexture2D::8548255698028078709::1729340521::1729340521::1::::<><>::
+::res://android/::1729336970
+::res://sky/::1729342294
+::res://sky/AllSkyFree/::1729342620
+AllSkyFree_DemoLandsacpe.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/AllSky_DemoEnvironment.obj
+AllSkyFree_Sky_AnotherPlanet.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/AllSky_Space_AnotherPlanet Equirect.png<>res://AllSkyFree_DemoLandsacpe.tscn
+AllSkyFree_Sky_CartoonNightSky.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/Cartoon Base NightSky Equirect.png<>res://AllSkyFree_DemoLandsacpe.tscn
+AllSkyFree_Sky_ClearBlueSky.tscn::PackedScene::-1::1729342620::0::1::::<><>::uid://dvnckm3y607ag::::res://sky/AllSkyFree/AllSkyFree_Skyboxes/Sky_Day_BlueSky_Equirect.png<>res://sky/AllSkyFree/AllSkyFree_DemoLandsacpe.tscn
+AllSkyFree_Sky_ColdNightEquirect.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/Cold Night Equirect.png<>res://AllSkyFree_DemoLandsacpe.tscn
+AllSkyFree_Sky_ColdSunset.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/Cold Sunset Equirect.png<>res://AllSkyFree_DemoLandsacpe.tscn
+AllSkyFree_Sky_DeepDusk.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/Deep Dusk Equirect.png<>res://AllSkyFree_DemoLandsacpe.tscn
+AllSkyFree_Sky_EpicBlueSunset.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/Epic_BlueSunset_EquiRect_flat.png<>res://AllSkyFree_DemoLandsacpe.tscn
+AllSkyFree_Sky_EpicGloriousPink.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/Epic_GloriousPink_EquiRect.png<>res://AllSkyFree_DemoLandsacpe.tscn
+AllSkyFree_Sky_MoonBurst.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/AllSky_Night_MoonBurst Equirect.png<>res://AllSkyFree_DemoLandsacpe.tscn
+AllSkyFree_Sky_OvercastLow.tscn::PackedScene::-1::1584625093::0::1::::<><>::res://AllSkyFree_Skyboxes/AllSky_Overcast4_Low.png<>res://AllSkyFree_DemoLandsacpe.tscn
+::res://sky/AllSkyFree/AllSkyFree_Skyboxes/::1729342815
+AllSkyFree_Environment.tres::ShaderMaterial::-1::1584625093::0::1::::<><>::
+AllSky_DemoEnvironment.blend::PackedScene::4510327215328112289::1584625093::1729342472::1::::<><>::
+AllSky_DemoEnvironment.fbx::PackedScene::5009600060387194568::1584625093::1729342472::1::::<><>::
+AllSky_DemoEnvironment.obj::Mesh::2171181312721694843::1584625093::1729342465::1::::<><>::
+AllSky_Night_MoonBurst Equirect.png::CompressedTexture2D::8136638002951450785::1584625093::1729342424::1::::<><>::
+AllSky_Overcast4_Low.png::CompressedTexture2D::1021306656374966660::1584625093::1729342419::1::::<><>::
+Cartoon Base NightSky Equirect.png::CompressedTexture2D::1215878991478793216::1584625093::1729342419::1::::<><>::
+Cold Night Equirect.png::CompressedTexture2D::52607410256110113::1584625093::1729342455::1::::<><>::
+Cold Sunset Equirect.png::CompressedTexture2D::1800396642714402423::1584625093::1729342464::1::::<><>::
+Deep Dusk Equirect.png::CompressedTexture2D::1239786137964321805::1584625093::1729342456::1::::<><>::
+Epic_BlueSunset_EquiRect_flat.png::CompressedTexture2D::5873610628395509954::1584625093::1729342425::1::::<><>::
+Epic_GloriousPink_EquiRect.png::CompressedTexture2D::5861735997879553214::1584625093::1729342425::1::::<><>::
+Sky_Day_BlueSky_Equirect.png::CompressedTexture2D::8660204644872963774::1584625093::1729342421::1::::<><>::

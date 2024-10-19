@@ -1,0 +1,13 @@
+WorldEnvironment
+Button
+DirectionalLight3D
+OccluderInstance3D
+Label
+Node
+StaticBody3D
+CollisionShape3D
+Area3D
+Camera3D
+CollisionPolygon3D
+MeshInstance3D
+CharacterBody3D
