@@ -1,5 +1,8 @@
-res://sky/AllSkyFree/AllSkyFree_Sky_ClearBlueSky.tscn
 res://testing.tscn
 res://player.tscn
 res://fps.tscn
 res://mobile_controls.tscn
+res://player.gd
+res://enemy.tscn
+res://enemy.gd
+res://models/sword.gd

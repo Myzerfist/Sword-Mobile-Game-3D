@@ -1,10 +1,11 @@
-[gd_scene load_steps=13 format=3 uid="uid://7r3xsmy4ttgx"]
+[gd_scene load_steps=14 format=3 uid="uid://7r3xsmy4ttgx"]
 
 [ext_resource type="PackedScene" uid="uid://bk3ivey2dlsk6" path="res://player.tscn" id="1_0ajyj"]
 [ext_resource type="PackedScene" uid="uid://cgvu3qve730mi" path="res://mobile_controls.tscn" id="3_44ucp"]
 [ext_resource type="PackedScene" uid="uid://dmr0fcamx7t56" path="res://addons/virtual_joystick/virtual_joystick_scene.tscn" id="3_kj6jt"]
 [ext_resource type="PackedScene" uid="uid://ceac8jenyjrv2" path="res://fps.tscn" id="3_wxm76"]
 [ext_resource type="Texture2D" uid="uid://ceq4ywo0m2p5x" path="res://AllSky_Space_AnotherPlanet Equirect.png" id="5_88iit"]
+[ext_resource type="PackedScene" uid="uid://5a2nh6nrxfku" path="res://enemy.tscn" id="6_e1x7n"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_km3pu"]
 albedo_color = Color(0.212305, 0.212305, 0.212305, 1)
@@ -142,3 +143,6 @@ offset_bottom = 512.0
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_j53je")
+
+[node name="Enemy" parent="." instance=ExtResource("6_e1x7n")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.51245, 1.90579, -2.18018)

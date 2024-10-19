@@ -1,12 +1,56 @@
-[gd_scene load_steps=4 format=3 uid="uid://bk3ivey2dlsk6"]
+[gd_scene load_steps=10 format=3 uid="uid://bk3ivey2dlsk6"]
 
 [ext_resource type="Script" path="res://player.gd" id="1_mm7so"]
+[ext_resource type="PackedScene" uid="uid://bpjlsly2xvx6y" path="res://models/sword.fbx" id="2_wqbmx"]
+[ext_resource type="Script" path="res://models/sword.gd" id="3_bujoq"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_maxo7"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_n7b4h"]
 
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_x8eib"]
+radius = 0.1
+
+[sub_resource type="Animation" id="Animation_xyg3v"]
+resource_name = "player"
+length = 1.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("sword:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1.46667),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 0), Vector3(-1.43117, 0, 0), Vector3(0, 0, 0)]
+}
+
+[sub_resource type="Animation" id="Animation_hgrl6"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("sword:rotation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_orgrc"]
+_data = {
+"RESET": SubResource("Animation_hgrl6"),
+"player": SubResource("Animation_xyg3v")
+}
+
 [node name="Player" type="CharacterBody3D"]
+collision_layer = 3
+collision_mask = 3
 script = ExtResource("1_mm7so")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
@@ -17,3 +61,20 @@ shape = SubResource("CapsuleShape3D_n7b4h")
 
 [node name="Camera3D" type="Camera3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.556096, -0.309533)
+doppler_tracking = 2
+
+[node name="sword" parent="." instance=ExtResource("2_wqbmx")]
+transform = Transform3D(0.04, 0, 0, 0, 0.04, 0, 0, 0, 0.04, 0.331623, -0.219365, -1.13857)
+script = ExtResource("3_bujoq")
+
+[node name="Area3D" type="Area3D" parent="sword"]
+transform = Transform3D(25, 0, 0, 0, 25, 0, 0, 0, 25, -8.29057, 5.48413, 28.4642)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="sword/Area3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4, 0.817588, -1.14127)
+shape = SubResource("CapsuleShape3D_x8eib")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_orgrc")
+}
